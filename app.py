@@ -12,7 +12,7 @@ if build_histogram:  # Si la casilla de verificación está seleccionada
     st.write('Construir un histograma para la columna odómetro')
 
     # Generar el histograma usando Plotly Express
-    fig = px.histogram(car_data, x='Odometer',
+    fig = px.histogram(car_data, x='odometer',
                        title="Histograma de Odómetro")
 
     # mostrar un gráfico Plotly interactivo
